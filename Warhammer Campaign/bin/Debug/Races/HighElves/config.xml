@@ -1,0 +1,29 @@
+<Config>
+	<StartingResources Gold="500" Magic="100" />
+	<ArmyTypes>
+		<ArmyType Type="Builder" Movement="5" UpkeepPer100pts="Gold=15,Magic=1" ImgPath="Races\HighElves\builder.png" />
+		<ArmyType Type="Standard" Movement="5" UpkeepPer100pts="Gold=15,Magic=1" ImgPath="Races\HighElves\standard.png" />
+		<ArmyType Type="Flying" Movement="10" UpkeepPer100pts="Gold=15,Magic=1" ImgPath="Races\HighElves\flying.png" />
+	</ArmyTypes>
+	<Costs>
+		<BuildTown Gold="200" Magic="50" />
+		<BuildWatchtower Gold="100" Magic="30" />
+		<BuildCastle Gold="400" Magic="100" />
+		<UpgradeTown Gold="70" Magic="10" />
+		<Town_Cover1 Gold="40" />
+		<Town_Cover2 Gold="40" />
+		<Town_Walls1 Gold="40" />
+		<Town_Walls2 Gold="40" />
+		<Town_Towers1 Gold="40" />
+		<Town_Towers2 Gold="40" />
+		<UpgradeCastle Gold="250" Magic="50" />
+		<Castle_Walls1 Gold="60" />
+		<Castle_Walls2 Gold="60" />
+		<Castle_Towers1 Gold="60" />
+		<Castle_Towers2 Gold="60" />
+		<Castle_Towers3 Gold="60" />
+		<Castle_Gatehouse1 Gold="60" />
+		<Castle_Gatehouse2 Gold="60" />
+		<Road Gold="5" />
+	</Costs>
+</Config>

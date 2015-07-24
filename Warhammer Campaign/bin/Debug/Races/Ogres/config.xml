@@ -1,0 +1,29 @@
+<Config>
+	<StartingResources Food="300" Magic="100" />
+	<ArmyTypes>
+		<ArmyType Type="Builder" Movement="4" UpkeepPer100pts="Food=10,Magic=1" ImgPath="Races\Ogres\builder.png" />
+		<ArmyType Type="Standard" Movement="4" UpkeepPer100pts="Food=10,Magic=1" ImgPath="Races\Ogres\standard.png" />
+		<ArmyType Type="Monstrous" Movement="6" UpkeepPer100pts="Food=10,Magic=1" ImgPath="Races\Ogres\monstrous.png" />
+	</ArmyTypes>
+	<Costs>
+		<BuildTown Food="150" Magic="50" />
+		<BuildWatchtower Food="80" Magic="30" />
+		<BuildCastle Food="300" Magic="100" />
+		<UpgradeTown Food="50" Magic="10" />
+		<Town_Cover1 Food="30" />
+		<Town_Cover2 Food="30" />
+		<Town_Walls1 Food="30" />
+		<Town_Walls2 Food="30" />
+		<Town_Towers1 Food="30" />
+		<Town_Towers2 Food="30" />
+		<UpgradeCastle Food="200" Magic="50" />
+		<Castle_Walls1 Food="40" />
+		<Castle_Walls2 Food="40" />
+		<Castle_Towers1 Food="40" />
+		<Castle_Towers2 Food="40" />
+		<Castle_Towers3 Food="40" />
+		<Castle_Gatehouse1 Food="40" />
+		<Castle_Gatehouse2 Food="40" />
+		<Road Food="5" />
+	</Costs>
+</Config>

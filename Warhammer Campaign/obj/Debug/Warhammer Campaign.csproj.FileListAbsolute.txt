@@ -1,0 +1,54 @@
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe.config
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.Properties.Resources.resources
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.csproj.GenerateResource.Cache
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.pdb
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.exe
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.pdb
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.MainForm.resources
+c:\users\quentin\documents\visual studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.csprojResolveAssemblyReference.cache
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.StartForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.PlayerForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.CampaignForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.ResolveBattleForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.ConfigurePlayerForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.NewArmyForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.NewBuildingForm.resources
+C:\Users\Quentin\Documents\Visual Studio 2012\Projects\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.SiegeForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe.config
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.exe
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.pdb
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.pdb
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.csprojResolveAssemblyReference.cache
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.CampaignForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.ConfigurePlayerForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.NewArmyForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.NewBuildingForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.PlayerForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.ResolveBattleForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.SiegeForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.StartForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.MainForm.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.Properties.Resources.resources
+F:\Documents\Francois\Warhammer\Gaming\Campaign\Warhammer Campaign v0.0.0.0.2\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.csproj.GenerateResource.Cache
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe.config
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.exe
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.pdb
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.pdb
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.csprojResolveAssemblyReference.cache
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.CampaignForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.ConfigurePlayerForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.NewArmyForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.NewBuildingForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.PlayerForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.ResolveBattleForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.SiegeForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.StartForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.MainForm.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer_Campaign.Properties.Resources.resources
+C:\Users\Quentin\Dropbox\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.csproj.GenerateResource.Cache
+C:\Users\Quentin\Documents\GitHub\Warhammer Campaign\Warhammer Campaign\bin\Debug\Warhammer Campaign.exe.config
+C:\Users\Quentin\Documents\GitHub\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.exe
+C:\Users\Quentin\Documents\GitHub\Warhammer Campaign\Warhammer Campaign\obj\Debug\Warhammer Campaign.pdb

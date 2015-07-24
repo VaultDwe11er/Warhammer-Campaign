@@ -1,0 +1,18 @@
+<Castle>
+	<Walls>
+		<Level Name="Wooden Walls"/>
+		<Level Name="Stone Walls" CostType="Castle_Walls1"/>
+		<Level Name="Reinforced Walls" CostType="Castle_Walls2"/>
+	</Walls>
+	<Towers>
+		<Level Name="Wooden Towers" />
+		<Level Name="Stone Towers (Square)" CostType="Castle_Towers1"/>
+		<Level Name="Stone Towers (Circular)" CostType="Castle_Towers2"/>
+		<Level Name="Stone Towers (Circular-Reinforced)" CostType="Castle_Towers3"/>
+	</Towers>
+	<Gatehouse>
+		<Level Name="Wooden Gatehouse" />
+		<Level Name="Stone Gatehouse" CostType="Castle_Gatehouse1"/>
+		<Level Name="Reinforced Gatehouse" CostType="Castle_Gatehouse2"/>
+	</Gatehouse>
+</Castle>

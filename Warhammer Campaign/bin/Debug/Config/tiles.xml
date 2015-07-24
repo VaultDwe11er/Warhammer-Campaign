@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tiles>
+	<Tile Type="Beach" Char="A" SummerImage="Terrain\Beach\beach.png" WinterImage="Terrain\Snow\snow.png" MoveCost="3" Elevation="0" Resources="Gold=5,Food=3"/>
+	<Tile Type="Beach" Char="B" SummerImage="Terrain\Beach\beach6.png" WinterImage="Terrain\Beach\beach.png" MoveCost="3" Elevation="0" />
+	<Tile Type="Desert" Char="C" SummerImage="Terrain\Desert\desert5.png" WinterImage="Terrain\Desert\desert8.png" MoveCost="4" Elevation="0" />
+	<Tile Type="Desert" Char="D" SummerImage="Terrain\Desert\desert4.png" WinterImage="Terrain\Rivier or Ocean tiles\ford.png" MoveCost="4" Elevation="0" />
+	<Tile Type="Desert" Char="E" SummerImage="Terrain\Desert + Forest\desert-oasis.png" WinterImage="Terrain\Snow + Hills\snow.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Desert" Char="F" SummerImage="Terrain\Desert + Hills\desert.png" WinterImage="Terrain\Mountains\snow-tile.png" MoveCost="5" Elevation="0" />
+	<Tile Type="Forest" Char="G" SummerImage="Terrain\Forest\Summer Forest 6.png" WinterImage="Terrain\Ice\ice.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Forest" Char="H" SummerImage="Terrain\Forest\Summer Forest3.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Forest" Char="I" SummerImage="Terrain\Forest\Summer Forest2.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Forest" Char="J" SummerImage="Terrain\Forest\Summer Forest11.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Forest" Char="K" SummerImage="Terrain\Forest\Winter Dry1.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Forest" Char="L" SummerImage="Terrain\Forest + Hills\forested-deciduous-summer-hills-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="3" Elevation="0" />
+	<Tile Type="Forest" Char="M" SummerImage="Terrain\Forest + Hills\forested-hills-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="3" Elevation="0" />
+	<Tile Type="Forest" Char="N" SummerImage="Terrain\Forest + Hills\forested-mixed-summer-hills-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="3" Elevation="0" />
+	<Tile Type="Forest" Char="O" SummerImage="Terrain\Forest + Hills\forested-deciduous-winter-hills-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="3" Elevation="0" />
+	<Tile Type="Forest" Char="P" SummerImage="Terrain\Forest + Hills + Snow\forested-snow-hills-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="5" Elevation="0" />
+	<Tile Type="Hill" Char="Q" SummerImage="Terrain\Hills\dry.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="1" />
+	<Tile Type="Hill" Char="R" SummerImage="Terrain\Hills\regular.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="1" />
+	<Tile Type="Ice" Char="S" SummerImage="Terrain\Ice\ice.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="3" Elevation="0" />
+	<Tile Type="Jungle" Char="T" SummerImage="Terrain\Jungle\Jungle6.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="0" />
+	<Tile Type="Mountain" Char="U" SummerImage="Terrain\Mountains\basic-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="6" Elevation="2" />
+	<Tile Type="Mountain" Char="V" SummerImage="Terrain\Mountains\snow-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="12" Elevation="2" />
+	<Tile Type="Mountain" Char="W" SummerImage="Terrain\Mountains\dry-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="6" Elevation="2" />
+	<Tile Type="Mountain" Char="X" SummerImage="Terrain\Mountains\cloud-snow-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="-1" Elevation="2" />
+	<Tile Type="Mountain" Char="Y" SummerImage="Terrain\Mountains + Forest\Mountain Forest1.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="5" Elevation="2" />
+	<Tile Type="Mountain" Char="Z" SummerImage="Terrain\Mountains + Forest\Mountain Forest3.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="10" Elevation="2" />
+	<Tile Type="Water" Char="1" SummerImage="Terrain\River or Ocean tiles\coast-grey-tile.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="4" Elevation="-1" />
+	<Tile Type="Water" Char="2" SummerImage="Terrain\River or Ocean tiles\ford.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="2" Elevation="-1" />
+	<Tile Type="Snow" Char="3" SummerImage="Terrain\Snow + Forest\Forest Snow7.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="4" Elevation="0" />
+	<Tile Type="Snow" Char="4" SummerImage="Terrain\Snow + Hills\Snow3.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="4" Elevation="0" />
+	<Tile Type="Swamp" Char="5" SummerImage="Terrain\Swamp or Marsh\Marsh1.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="5" Elevation="0" />
+	<Tile Type="Swamp" Char="6" SummerImage="Terrain\Swamp or Marsh\Marsh5.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="5" Elevation="0" />
+	<Tile Type="Swamp" Char="7" SummerImage="Terrain\Swamp or Marsh\Swamp2.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="5" Elevation="0" />
+	<Tile Type="Swamp" Char="8" SummerImage="Terrain\Swamp or Marsh\Swamp5.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="5" Elevation="0" />
+	<Tile Type="Plain" Char="9" SummerImage="Terrain\Plains\green6.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="1" Elevation="0" />
+	<Tile Type="Plain" Char="0" SummerImage="Terrain\Plains\dry6.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="1" Elevation="0" />
+	<Tile Type="Plain" Char="." SummerImage="Terrain\Plains\semi-dry6.png" WinterImage="Terrain\Snow + Forest\Forest Snow2.png" MoveCost="1" Elevation="0" />
+</Tiles>

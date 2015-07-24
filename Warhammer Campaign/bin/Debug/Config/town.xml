@@ -1,0 +1,17 @@
+<Town>
+	<Obstacles>
+		<Level Name="No Cover" />
+		<Level Name="Soft Cover" CostType="Town_Cover1"/>
+		<Level Name="Hard Cover" CostType="Town_Cover2"/>
+	</Obstacles>
+	<Walls>
+		<Level Name="No Walls" />
+		<Level Name="Wooden Walls" CostType="Town_Walls1"/>
+		<Level Name="Stone Walls" CostType="Town_Walls2"/>
+	</Walls>
+	<Towers>
+		<Level Name="No Towers" />
+		<Level Name="Wooden Towers" CostType="Town_Towers1"/>
+		<Level Name="Stone Towers" CostType="Town_Towers2"/>
+	</Towers>
+</Town>

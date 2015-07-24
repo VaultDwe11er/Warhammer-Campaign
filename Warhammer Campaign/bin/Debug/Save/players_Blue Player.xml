@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Players>
+  <Player>
+    <Name>Red Player</Name>
+    <Position>1</Position>
+    <Race>Ogres</Race>
+    <Password>982</Password>
+    <Horizontal>0</Horizontal>
+    <Vertical>0</Vertical>
+    <Armies>
+      <Army>
+        <Name>Army 1</Name>
+        <Type>Builder</Type>
+        <MoveTotal>4</MoveTotal>
+        <MoveLeft>4</MoveLeft>
+        <Color>Red</Color>
+        <Size>0</Size>
+        <IsInBattle>False</IsInBattle>
+        <IsSieging>False</IsSieging>
+        <UnitAttacked></UnitAttacked>
+        <CanBuild>True</CanBuild>
+        <X>25</X>
+        <Y>5</Y>
+        <ImgPath>Races\Ogres\builder.png</ImgPath>
+        <Upkeep />
+      </Army>
+      <Army>
+        <Name>Army 3</Name>
+        <Type>Monstrous</Type>
+        <MoveTotal>6</MoveTotal>
+        <MoveLeft>6</MoveLeft>
+        <Color>Red</Color>
+        <Size>1500</Size>
+        <IsInBattle>False</IsInBattle>
+        <IsSieging>False</IsSieging>
+        <UnitAttacked></UnitAttacked>
+        <CanBuild>False</CanBuild>
+        <X>14</X>
+        <Y>3</Y>
+        <ImgPath>Races\Ogres\monstrous.png</ImgPath>
+        <Upkeep Food="60" Magic="1" />
+      </Army>
+    </Armies>
+    <Buildings>
+      <Town>
+        <Name>Town 1</Name>
+        <Level>11</Level>
+        <LevelChanged>False</LevelChanged>
+        <CoverLevel>No Cover</CoverLevel>
+        <WallLevel>No Walls</WallLevel>
+        <TowerLevel>No Towers</TowerLevel>
+        <IsInBattle>False</IsInBattle>
+        <ImagePath>Terrain\Possible Buildings or Encampments\human-tile.png</ImagePath>
+        <X>3</X>
+        <Y>12</Y>
+      </Town>
+    </Buildings>
+    <Resources>
+      <Food>243</Food>
+      <Magic>99</Magic>
+    </Resources>
+  </Player>
+  <Player>
+    <Name>Blue Player</Name>
+    <Position>2</Position>
+    <Race>High Elves</Race>
+    <Password>982</Password>
+    <Horizontal>0</Horizontal>
+    <Vertical>0</Vertical>
+    <Armies>
+      <Army>
+        <Name>Army 2</Name>
+        <Type>Flying</Type>
+        <MoveTotal>10</MoveTotal>
+        <MoveLeft>10</MoveLeft>
+        <Color>Blue</Color>
+        <Size>2000</Size>
+        <IsInBattle>False</IsInBattle>
+        <IsSieging>False</IsSieging>
+        <UnitAttacked></UnitAttacked>
+        <CanBuild>False</CanBuild>
+        <X>8</X>
+        <Y>8</Y>
+        <ImgPath>Races\HighElves\flying.png</ImgPath>
+        <Upkeep Gold="50" Magic="1" />
+      </Army>
+      <Army>
+        <Name>Army 4</Name>
+        <Type>Builder</Type>
+        <MoveTotal>5</MoveTotal>
+        <MoveLeft>0</MoveLeft>
+        <Color>Blue</Color>
+        <Size>0</Size>
+        <IsInBattle>False</IsInBattle>
+        <IsSieging>False</IsSieging>
+        <UnitAttacked></UnitAttacked>
+        <CanBuild>True</CanBuild>
+        <X>4</X>
+        <Y>13</Y>
+        <ImgPath>Races\HighElves\builder.png</ImgPath>
+        <Upkeep />
+      </Army>
+    </Armies>
+    <Buildings>
+      <Town>
+        <Name>Town 2</Name>
+        <Level>6</Level>
+        <LevelChanged>False</LevelChanged>
+        <CoverLevel>No Cover</CoverLevel>
+        <WallLevel>No Walls</WallLevel>
+        <TowerLevel>No Towers</TowerLevel>
+        <IsInBattle>False</IsInBattle>
+        <ImagePath>Terrain\Possible Buildings or Encampments\human-tile.png</ImagePath>
+        <X>8</X>
+        <Y>12</Y>
+      </Town>
+      <Watchtower>
+        <Name>Tower 1</Name>
+        <GarrisonSize>500</GarrisonSize>
+        <ImagePath>Terrain\Possible Buildings or Encampments\elven-tile.png</ImagePath>
+        <X>5</X>
+        <Y>7</Y>
+      </Watchtower>
+      <Castle>
+        <Name>Castle 1</Name>
+        <Level>7</Level>
+        <LevelChanged>True</LevelChanged>
+        <ImagePath>Terrain\Possible Buildings or Encampments\keep-tile.png</ImagePath>
+        <X>20</X>
+        <Y>13</Y>
+        <WallLevel>Wooden Walls</WallLevel>
+        <TowerLevel>Wooden Towers</TowerLevel>
+        <GatehouseLevel>Wooden Gatehouse</GatehouseLevel>
+        <IsInBattle>False</IsInBattle>
+        <IsUnderSiege>False</IsUnderSiege>
+      </Castle>
+    </Buildings>
+    <Resources>
+      <Gold>500</Gold>
+      <Magic>100</Magic>
+    </Resources>
+  </Player>
+</Players>

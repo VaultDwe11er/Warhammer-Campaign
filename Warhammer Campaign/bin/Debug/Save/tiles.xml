@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tiles>
+  <Tile X="5" Y="7" Type="Road" />
+  <Tile X="6" Y="6" Type="Road" />
+  <Tile X="7" Y="6" Type="Road" />
+  <Tile X="8" Y="5" Type="Road" />
+  <Tile X="9" Y="5" Type="Road" />
+  <Tile X="10" Y="4" Type="Road" />
+  <Tile X="11" Y="4" Type="Road" />
+  <Tile X="12" Y="3" Type="Road" />
+  <Tile X="13" Y="3" Type="Road" />
+  <Tile X="14" Y="3" Type="Road" />
+</Tiles>

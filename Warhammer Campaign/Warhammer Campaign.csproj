@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{204FF417-697F-4541-9130-1612801C6E88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Warhammer_Campaign</RootNamespace>
+    <AssemblyName>Warhammer Campaign</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Army.cs" />
+    <Compile Include="Classes\Castle.cs" />
+    <Compile Include="Controls\CustomHexgridPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Fov.cs" />
+    <Compile Include="Controls\Minimap.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Classes\Resource.cs" />
+    <Compile Include="Classes\Town.cs" />
+    <Compile Include="Classes\MapObject.cs" />
+    <Compile Include="Classes\Watchtower.cs" />
+    <Compile Include="Forms\SiegeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SiegeForm.Designer.cs">
+      <DependentUpon>SiegeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HexGridCustom\BidirectionalPathfinder.cs" />
+    <Compile Include="HexGridCustom\FieldOfView.cs" />
+    <Compile Include="Forms\CampaignForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CampaignForm.Designer.cs">
+      <DependentUpon>CampaignForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ConfigurePlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ConfigurePlayerForm.Designer.cs">
+      <DependentUpon>ConfigurePlayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewArmyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewArmyForm.Designer.cs">
+      <DependentUpon>NewArmyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewBuildingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\NewBuildingForm.Designer.cs">
+      <DependentUpon>NewBuildingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ResolveBattleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ResolveBattleForm.Designer.cs">
+      <DependentUpon>ResolveBattleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlayerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlayerForm.Designer.cs">
+      <DependentUpon>PlayerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Turn.cs" />
+    <Compile Include="Classes\Player.cs" />
+    <Compile Include="Classes\TerrainMap.cs" />
+    <Compile Include="Classes\TerrainGridHex.cs" />
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HexGridCustom\FovCone.cs" />
+    <Compile Include="HexGridCustom\FovFactory.cs" />
+    <Compile Include="HexGridCustom\FovQueue.cs" />
+    <Compile Include="HexGridCustom\Hex.cs" />
+    <Compile Include="HexGridCustom\HexBoard.cs" />
+    <Compile Include="HexGridCustom\BoardStorage.cs" />
+    <Compile Include="HexGridCustom\DictPriorityQueue.cs" />
+    <Compile Include="HexGridCustom\DirectedPath.cs" />
+    <Compile Include="HexGridCustom\HexCoords.cs" />
+    <Compile Include="HexGridCustom\HexEventArgs.cs" />
+    <Compile Include="HexGridCustom\HexGrid.cs" />
+    <Compile Include="HexGridCustom\HexgridPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="HexGridCustom\HexgridPanel.Designer.cs">
+      <DependentUpon>HexgridPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HexGridCustom\HotPriorityQueue.cs" />
+    <Compile Include="HexGridCustom\HotPriorityQueueList.cs" />
+    <Compile Include="HexGridCustom\IDirectedNavigableBoard.cs" />
+    <Compile Include="HexGridCustom\IPriorityQueue.cs" />
+    <Compile Include="HexGridCustom\Landmark.cs" />
+    <Compile Include="HexGridCustom\MapDisplay.cs" />
+    <Compile Include="HexGridCustom\MapGridHex.cs" />
+    <Compile Include="HexGridCustom\NeighbourCoords.cs" />
+    <Compile Include="HexGridCustom\PointExtensions.cs" />
+    <Compile Include="HexGridCustom\RiseRun.cs" />
+    <Compile Include="HexGridCustom\ShadowCastingFov.cs" />
+    <Compile Include="HexGridCustom\ShadowCastingFov_DodecantHelpers.cs" />
+    <Compile Include="HexGridCustom\ShadowCastingFov_Utilities.cs" />
+    <Compile Include="HexGridCustom\SizeExtensions.cs" />
+    <Compile Include="HexGridCustom\UnidirectionalPathfinder.cs" />
+    <Compile Include="HexGridCustom\Hexside.cs" />
+    <Compile Include="HexGridCustom\IntMatrix2D.cs" />
+    <Compile Include="HexGridCustom\IntVector2D.cs" />
+    <Compile Include="HexGridCustom\NeighbourHex.cs" />
+    <Compile Include="HexGridCustom\UserCoordsRectangle.cs" />
+    <Compile Include="HexGridCustom\Utils.cs" />
+    <Compile Include="HexGridCustom\WindowStylesEx.cs" />
+    <Compile Include="HexGridCustom\WinFormsExtensions.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Races\HighElvesRace.cs" />
+    <Compile Include="Races\OgresRace.cs" />
+    <Compile Include="Races\Race.cs" />
+    <EmbeddedResource Include="Forms\CampaignForm.resx">
+      <DependentUpon>CampaignForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ConfigurePlayerForm.resx">
+      <DependentUpon>ConfigurePlayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewArmyForm.resx">
+      <DependentUpon>NewArmyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewBuildingForm.resx">
+      <DependentUpon>NewBuildingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlayerForm.resx">
+      <DependentUpon>PlayerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ResolveBattleForm.resx">
+      <DependentUpon>ResolveBattleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SiegeForm.resx">
+      <DependentUpon>SiegeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Icons\UpArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-end-n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Beach\beach8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-end-ne.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-end-nw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-end-s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-end-se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-end-sw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-ne-sw-tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-n-s-tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Bridge -Stone\stonebridge-se-nw-tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\cloud-waste-tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste_crater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-hills.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-hills2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-hills3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\wastelands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-mountain-peak1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-mountain-peak2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-mountain-peak3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Chaos Wastes\waste-mountains.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Terrain\Desert\desert8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
