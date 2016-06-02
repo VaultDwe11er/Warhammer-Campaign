@@ -3,3 +3,4 @@
 Warhammer Campaign.exe.config
 Warhammer Campaign.vshost.exe.config
 *.manifest
+/Warhammer Campaign/obj/Debug
