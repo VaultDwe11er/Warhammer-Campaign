@@ -1,0 +1,5 @@
+*.exe
+*.pdb
+Warhammer Campaign.exe.config
+Warhammer Campaign.vshost.exe.config
+*.manifest
